@@ -7,14 +7,15 @@ Please read the following documents with a WWW browser.<br>
 How to install Kyoto Tycoon is explained in the specification.
 
         README          - this file                       
-        effect          - Description example             
-        dig             - A dns tool that supports +subnet=   
+        getweball.py    - python program that implements functionality          
+        dig             - a dns tool that supports +subnet=   
+        index.html      - web homepage
 
 Contents of the directory tree is below.
 
         ./              - sources of Domain HTTP header query system 
         ./doc/          - manuals and specifications 
-        ./example/      - sample code for tutorial
+        ./example/      - some sample effect pictures
 
 
 Domain HTTP header query system is a Operation and maintenance tools.<br>
