@@ -1,7 +1,7 @@
 
-=======================================<br> 
+=================================================================================<br> 
 # Domain-HTTP-header-query-system: a handy tools <br>
-=======================================<br>
+=================================================================================<br>
 
 Please read the following documents with a WWW browser.<br>
 How to install Kyoto Tycoon is explained in the specification.
