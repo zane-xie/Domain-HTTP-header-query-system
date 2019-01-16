@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 加上下面一行防止中文乱码 -->
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>域名头信息查询系统</title>
+	</head>
+	<body>
+		<script>
+			function Cmd(){
+			var ipt = document.getElementById("divbox").getElementsByTagName("input"); //查找divbox这个div里的所有文本框
+			for(var i = 0; i < ipt.length; i++){ //循环
+			if(ipt[i].value.length == 0){ //如果其中一个文本框没有填写
+				alert("所有文本框都需要填写，填写示例请参照下面说明"); //弹出提示
+				ipt[i].focus(); //定位到没有填写的文本框
+				return false; //返回false
+				}
+			}
+			return true; //都已经填写，返回true
+		}
+		</script>
+
+		<h1><font color="purple">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;域名HTTP头信息查询系统</h1><p></p>
+		<form action="http://weball.hnxiezan.com/getall"; method="POST" enctype="multipart/form-data">
+		<div id="divbox">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请输入需要查询url:&nbsp;<input  type="text" name="inputurl" />&nbsp;<p></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请输入代理域名:&nbsp;<font color="azure">url</font><input  type="text" name="inputproxy" />&nbsp;<p></p>
+		</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请选择需要检查的http相关头信息：<p></p>
+		&nbsp;&nbsp;&nbsp;<input name="sex" type="radio" value="HTTP" checked />httpcode
+		<input type="radio" value="Content-Length"name="sex" />content-length
+		<input type="radio" value="Etag"name="sex" />etag
+		<input type="radio" value="Last-Modified"name="sex" />last-modified
+		<input type="radio" value="https-crt-expire-time"name="sex" />https crt expire time
+		&nbsp;<input type="submit" value="提交" onclick="return Cmd();" />
+		</form><p></p>
+
+		&nbsp;<p></p>
+		&nbsp;&nbsp;&nbsp;1、查询url示例:http://i01.cztv.com/hostnew/images/host_index_bg.png?20160328。<p></p>
+		&nbsp;&nbsp;&nbsp;2、代理域名示例：s5.yfcdn.net 或者直接填访问域名。<p></p>
+		&nbsp;&nbsp;&nbsp;3、开发者联系邮箱hnxiezan@163.com。<p></p>
+
+	</body>
+</html>
