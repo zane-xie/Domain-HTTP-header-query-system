@@ -10,9 +10,9 @@ dig    - A dns tool that supports +subnet=   \<br>
 
 Contents of the directory tree is below.
 
-./         - sources of Domain HTTP header query system 
-./doc/     - manuals and specifications 
-./example/ - sample code for tutorial
+    ./         - sources of Domain HTTP header query system 
+    ./doc/     - manuals and specifications 
+    ./example/ - sample code for tutorial
 
 
 Domain HTTP header query system is a Operation and maintenance tools.
