@@ -4,9 +4,9 @@
 Please read the following documents with a WWW browser.
 How to install Kyoto Tycoon is explained in the specification.
 
-README - this file 
-effect - Description example 
-dig    - A dns tool that supports +subnet=
+README - this file                       \<br>
+effect - Description example             \<br>
+dig    - A dns tool that supports +subnet=   \<br>
 
 Contents of the directory tree is below.
 
