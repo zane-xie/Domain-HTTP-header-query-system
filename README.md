@@ -1,7 +1,7 @@
 
 ===== Domain-HTTP-header-query-system: a handy tools =====
 
-Please read the following documents with a WWW browser.
+Please read the following documents with a WWW browser.<br>
 How to install Kyoto Tycoon is explained in the specification.
 
         README          - this file                       
@@ -15,9 +15,10 @@ Contents of the directory tree is below.
         ./example/      - sample code for tutorial
 
 
-Domain HTTP header query system is a Operation and maintenance tools.
-Through it, you can see the various HTTP headers of the various nodes on the CDN about the domain name.
-Such as httpcode, content-length etag last-modified https certificate expiration time, etc.
+Domain HTTP header query system is a Operation and maintenance tools.<br>
+Through it, you can see the various HTTP headers of the various nodes on the CDN about the domain name.<br>
+Such as httpcode, content-length etag last-modified https certificate expiration time, etc.<br>
+<br>
 Thanks.
 
 == END OF FILE ==
